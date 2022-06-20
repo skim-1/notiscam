@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.whole {
+  flex: 1;
+}
+
+.half {
+  flex: calc(1/2);
+}
+
+.third {
+  flex: calc(1/3);
+}
+
+.fourth {
+  flex: calc(1/4);
+}
+
+.fifth {
+  flex: calc(1/5);
+}
+
+.sixth {
+  flex: calc(1/6);
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}

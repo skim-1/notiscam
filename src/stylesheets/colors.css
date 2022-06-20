@@ -1,0 +1,31 @@
+.green {
+  background-color: var(--logo-green);
+}
+
+.green-card {
+  background-color: #52bf8a;
+}
+
+.white {
+  background-color: white;
+}
+
+.blue {
+  background-color: #179bd1;
+}
+
+.pandas-blue {
+  background-color: #120751;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: #ffa733;
+}
+
+.gray {
+  background-color: #8a8796;
+}
