@@ -1,0 +1,13 @@
+{
+  "name": "nodiscam",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.1"
+  },
+  "dependencies": {
+    "@parcel/compressor-raw": "^2.6.1"
+  }
+}

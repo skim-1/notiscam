@@ -1,0 +1,41 @@
+:root {
+  --logo-green: #1aa260;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+
+body {
+  margin: 0;
+  width: min(100%, 1920px) !important;
+}
+
+.text {
+  color: #fff;
+  font-family: Comfortaa;
+}
+
+.logo {
+  color: var(--logo-green);
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--logo-green);
+  border-radius: 15px;
+  padding: .5% .2% 0%;
+  font-family: Comfortaa;
+  font-size: 64px;
+  line-height: 100%;
+}
+
+#quadContentContainer {
+  padding: 5px;
+}
+
+.card {
+  margin: 5px;
+}
+
+/*# sourceMappingURL=index.9e86e5b6.css.map */

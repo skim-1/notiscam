@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.whole {
+  flex: 1;
+}
+
+.half {
+  flex: .5;
+}
+
+.third {
+  flex: .333333;
+}
+
+.fourth {
+  flex: .25;
+}
+
+.fifth {
+  flex: .2;
+}
+
+.sixth {
+  flex: .166667;
+}
+
+.center {
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=index.854cf4d4.css.map */
