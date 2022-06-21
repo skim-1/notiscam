@@ -2,7 +2,6 @@ let getScamScore = () => {
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
     if (xhr.readyState == XMLHttpRequest.DONE) {
-      alert(xhr.response);
       let scamScore = JSON.parse(xhr.response).msg;
       if (!scamScore.length) {
           let scamText = "";
