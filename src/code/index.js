@@ -2,6 +2,7 @@ let getScamScore = () => {
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
     if (xhr.readyState == XMLHttpRequest.DONE) {
+      alert(JSON.parse(xhr.response).msg);
       let scamScore = JSON.parse(xhr.response).msg;
       if (!scamScore.length) {
           let scamText = "";
@@ -23,13 +24,6 @@ let getScamScore = () => {
   if (document.getElementById('text').value.substring(0, 7) !== 'http://') {
     xhr.send(JSON.stringify({
       text:document.getElementById('text').value
-    }));
-    xhr.send(JSON.stringify({
-      summary:document.getElementById('text').value
-    }));
-  } else {
-    xhr.send(JSON.stringify({
-      summary:document.getElementById('text').value
     }));
   }
 }
