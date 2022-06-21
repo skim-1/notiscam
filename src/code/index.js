@@ -24,9 +24,9 @@ let getScamScore = () => {
     xhr.send(JSON.stringify({
       text:document.getElementById('text').value
     }));
-    // xhr.send(JSON.stringify({
-    //   summary:document.getElementById('text').value
-    // }));
+    xhr.send(JSON.stringify({
+      summary:document.getElementById('text').value
+    }));
   } else {
     xhr.send(JSON.stringify({
       summary:document.getElementById('text').value
