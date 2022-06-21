@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width">
     <title>NodiScam</title>
     <link rel="shortcut icon" href="images/notiscam_logo_128.png"/>
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
@@ -10,13 +11,14 @@
     <link rel="stylesheet" href="stylesheets/colors.css"/>
     <link rel="stylesheet" href="stylesheets/shadows.css"/>
   </head>
-  <body class="container whole column green full">
-    <div id="titleContainer" class="container sixth column white center">
+  <script type="text/javascript" src="code/index.js"></script>
+  <body class="container whole column green full center">
+    <div id="titleContainer" class="container sixth column white center full">
       <div class="logo">NotiScam</div>
     </div>
-    <div id="quadContentContainer" class="container half">
+    <div id="quadContentContainer" class="container half center full-wdith">
 
-      <div class="container half column green-card card">
+      <div class="container half column green-card card full">
         <div class="container half green">
           <div class="container half column orange card center shadow-light">
             <image src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg"
@@ -43,16 +45,23 @@
         </div>
       </div>
 
-      <div class="container half green card">
-        <div class="container whole green-card card center shadow-light">
+      <div class="container half green card full">
+        <div class="container whole gray card center shadow-light">
           <img src="images/ml_diagram.png"
-            style="width: 90%"
+            style="width: 100%"
           />
         </div>
       </div>
 
     </div>
-    <div id="titleContainer" class="container third column white center">
+    <div id="titleContainer" class="container third column white center full-width">
+      <div id="scoreText" class="logo-text container half white center full">
+        Insert text, or a link!
+      </div>
+      <div class="bump container whole column white center full">
+        <textarea type="text" name="text" id="text" class="input">
+        <button onclick="getScamScore();" class="text-button">Test</button>
+      </div>
     </div>
   <body>
 </html>
