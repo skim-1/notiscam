@@ -21,9 +21,9 @@ let getScamScore = () => {
   xhr.open("POST", 'http://127.0.0.1:5000/news', true);
   xhr.setRequestHeader('Content-Type', 'application/json');
   if (document.getElementById('text').value.substring(0, 7) !== 'http://') {
-    // xhr.send(JSON.stringify({
-    //   text:document.getElementById('text').value
-    // }));
+    xhr.send(JSON.stringify({
+      text:document.getElementById('text').value
+    }));
     xhr.send(JSON.stringify({
       summary:document.getElementById('text').value
     }));
